@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.wear.widget.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:keepScreenOn="true"
+    android:padding="@dimen/box_inset_layout_padding"
+    tools:deviceIds="wear">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/laps_time"
+            android:layout_width="193dp"
+            android:layout_height="46dp"
+            android:text="00:00:00"
+            android:textAlignment="center"
+            android:textColor="#004D40"
+            android:textSize="40sp"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toTopOf="@+id/laps_reset_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.484"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/laps_start_pause_button"
+            app:layout_constraintVertical_bias="0.060000002" />
+
+        <Button
+            android:id="@+id/laps_start_pause_button"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_marginBottom="32dp"
+            android:background="#00796B"
+            android:drawableBottom="@drawable/start"
+            android:drawableTint="#FFFFFF"
+            android:foreground="@drawable/button_click"
+            android:paddingBottom="2dp"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toTopOf="@+id/laps_reset_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/laps_reset_button"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:background="#00796B"
+            android:drawableTop="@drawable/reset"
+            android:drawableTint="#FFFFFF"
+            android:foreground="@drawable/button_click"
+            android:paddingTop="2dp"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/laps_lap"
+            android:layout_width="100dp"
+            android:layout_height="44dp"
+            android:layout_marginBottom="4dp"
+            android:height="70dp"
+            android:background="@drawable/radius_button"
+            android:clickable="true"
+            android:drawableTint="#FFFFFF"
+            android:focusable="true"
+            android:foreground="@drawable/button_click"
+            android:text="l a p"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            app:layout_constraintBottom_toTopOf="@+id/laps_reset_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/laps_start_pause_button"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/laps_laps"
+            android:layout_width="16dp"
+            android:layout_height="91dp"
+            android:foreground="@drawable/button_click"
+            android:background="@drawable/circle_left_button"
+            android:paddingRight="1sp"
+            android:text="l a p s"
+            android:textSize="13sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.494" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.wear.widget.BoxInsetLayout>

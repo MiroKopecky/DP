@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.wear.widget.WearableRecyclerView
+        android:id="@+id/use_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#efefef"
+        android:fadeScrollbars="false"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/use_carousel_0"
+        android:layout_width="7dp"
+        android:layout_height="7dp"
+        android:background="@drawable/circle_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.32"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.94"
+        app:srcCompat="@drawable/circle_button"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/use_carousel_1"
+        android:layout_width="7dp"
+        android:layout_height="7dp"
+        android:background="@drawable/circle_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.38"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.94"
+        app:srcCompat="@drawable/circle_button"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/use_carousel_2"
+        android:layout_width="7dp"
+        android:layout_height="7dp"
+        android:background="@drawable/circle_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.94"
+        app:srcCompat="@drawable/circle_button"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/use_carousel_3"
+        android:layout_width="7dp"
+        android:layout_height="7dp"
+        android:background="@drawable/circle_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.94"
+        app:srcCompat="@drawable/circle_button"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/use_carousel_4"
+        android:layout_width="7dp"
+        android:layout_height="7dp"
+        android:background="@drawable/circle_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.56"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.94"
+        app:srcCompat="@drawable/circle_button"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/use_carousel_5"
+        android:layout_width="7dp"
+        android:layout_height="7dp"
+        android:background="@drawable/circle_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.62"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.94"
+        app:srcCompat="@drawable/circle_button"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/use_carousel_6"
+        android:layout_width="7dp"
+        android:layout_height="7dp"
+        android:background="@drawable/circle_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.68"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.94"
+        app:srcCompat="@drawable/circle_button"
+        tools:visibility="visible" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
